@@ -12,7 +12,24 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="80"
+        android:orientation="vertical"
         >
+
+        <ImageView
+            android:id="@+id/hand_anim_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/hand_anim"
+            android:scaleType="fitCenter"/>
+
+        <ImageView
+            android:id="@+id/set_hand_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/com_bawe"
+            android:scaleType="fitCenter"/>
+
+
 
 
     </LinearLayout>
@@ -25,36 +42,44 @@
         android:weightSum="100">
 
         <ImageButton
+            android:id="@+id/gawe_button"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="25"
             android:src="@drawable/com_gawe"
             android:scaleType="fitCenter"
             android:backgroundTint="#FFEB3B"
+            android:onClick="button_click"
             />
         <ImageButton
+            android:id="@+id/bawe_button"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="25"
             android:src="@drawable/com_gawe"
             android:scaleType="fitCenter"
             android:backgroundTint="#FFEB3B"
+            android:onClick="button_click"
             />
         <ImageButton
+            android:id="@+id/bo_button"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="25"
             android:src="@drawable/com_gawe"
             android:scaleType="fitCenter"
             android:backgroundTint="#FFEB3B"
+            android:onClick="button_click"
             />
         <ImageButton
+            android:id="@+id/replay_button"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="25"
             android:src="@drawable/ic_replay_black_24dp"
             android:scaleType="fitCenter"
             android:backgroundTint="#FFEB3B"
+            android:onClick="button_click"
             />
 
 
